@@ -6,7 +6,7 @@ Create Database and Table by file "create-database.sql"
 
 ## Step: 2
 $ npm install
-# http://localhost:3000/
+run service on http://localhost:3000/
 
 ## Request
 **C = Create** ==> [POST] /create-employee
