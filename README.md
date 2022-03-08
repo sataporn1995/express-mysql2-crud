@@ -1,14 +1,14 @@
 # express-mysql2
 Create API using Express.js and MySQL Database
 
-## Step: 1
+## Step: 1 Create Database & Table
 Create Database and Table by file "create-database.sql"
 
-## Step: 2
+## Step: 2 Installation
 $ npm install
 <br>run service on http://localhost:3000/
 
-## Request
+## Step: 3 Requests
 **C = Create** ==> [POST] /create-employee<br>
 Body:<br>
 {<br>
