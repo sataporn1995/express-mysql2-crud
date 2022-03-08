@@ -9,21 +9,21 @@ $ npm install
 <br>run service on http://localhost:3000/
 
 ## Request
-**C = Create** ==> [POST] /create-employee
-Body:
-{
-  "name": "TESTER",
-  "date": "2022-01-01"
-}
-
-**R = Read** ==> [GET] /all-employees
-
-**U = Update** ==> [POST] /edit-employee
-Body:
-{
-  "id": 1,
-  "name": "ABCD",
-  "date": "2022-01-02"
-}
-
+**C = Create** ==> [POST] /create-employee<br>
+Body:<br>
+{<br>
+  "name": "TESTER",<br>
+  "date": "2022-01-01"<br>
+}<br>
+<br>
+**R = Read** ==> [GET] /all-employees<br>
+<br>
+**U = Update** ==> [POST] /edit-employee<br>
+Body:<br>
+{<br>
+  "id": 1,<br>
+  "name": "ABCD",<br>
+  "date": "2022-01-02"<br>
+}<br>
+<br>
 **D = Delete** ==> [GET] /remove-employee/<id>
